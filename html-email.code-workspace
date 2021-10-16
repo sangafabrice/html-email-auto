@@ -1,0 +1,67 @@
+{
+    "folders": [
+        {
+            // Directory HTML campaign projects
+            "name": "html-email",
+            "path": "..\\Public"
+        },
+        {
+            // Private directory of HTML campaign projects
+            "name": "html-email-private",
+            "path": "..\\Private"
+        },
+        {
+            // Private directory of automation process
+            "name": "html-email-auto",
+            "path": "."
+        }
+    ],
+    "settings": {
+        "files.defaultLanguage": "html",
+        "emmet.extensionsPath": [
+            ".vscode"
+        ],
+        "emmet.syntaxProfiles": {
+            "html": "xhtml"
+        },
+		"emmet.preferences": {
+			"format.noIndentTags": [
+				"html",
+				"body",
+				"center",
+				"div"
+			]
+		},
+        "html.customData": [
+            ".vscode\\email.html-data.json"
+        ],
+        "css.lint.validProperties": [
+            "mso-table-lspace",
+            "mso-table-rspace",
+            "mso-line-height-rule",
+            "mso-hide",
+            "mso-style-priority",
+            "text-underline",
+            "color-scheme",
+            "supported-color-scheme"
+        ],
+        "files.autoSave": "afterDelay",
+        "files.autoSaveDelay": 500,
+        "workbench.colorTheme": "Atom Pro Theme",
+        "workbench.iconTheme": "moxer-icons"
+    },
+    "extensions": {
+        "recommendations": [
+            "codealb.codealb",
+            "agutierrezr.emmet-keybindings",
+            "ysemeniuk.emmet-live",
+            "mhutchie.git-graph",
+            "ms-vscode.live-server",
+            "github.remotehub",
+            "anteprimorac.html-end-tag-labels",
+            "equinusocio.moxer-icons",
+            "ms-vscode.powershell",
+            "2gua.rainbow-brackets"
+        ]
+    }
+}
