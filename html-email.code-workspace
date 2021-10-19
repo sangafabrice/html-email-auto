@@ -48,7 +48,8 @@
         "files.autoSave": "afterDelay",
         "files.autoSaveDelay": 500,
         "workbench.colorTheme": "Atom Pro Theme",
-        "workbench.iconTheme": "moxer-icons"
+        "workbench.iconTheme": "moxer-icons",
+        "terminal.integrated.fontFamily": "CaskaydiaCove NF"
     },
     "extensions": {
         "recommendations": [
