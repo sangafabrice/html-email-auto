@@ -1,17 +1,17 @@
 {
     "folders": [
         {
-            // Directory HTML campaign projects
+            // HTML campaign design
             "name": "html-email",
             "path": "..\\Public"
         },
         {
-            // Private directory of HTML campaign projects
+            // Private HTML campaign design
             "name": "html-email-private",
             "path": "..\\Private"
         },
         {
-            // Private directory of automation process
+            // HTML campaign automation process
             "name": "html-email-auto",
             "path": "."
         }
