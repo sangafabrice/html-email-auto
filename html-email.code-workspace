@@ -1,6 +1,11 @@
 {
     "folders": [
         {
+            // HTML campaign automation process
+            "name": "html-email-auto",
+            "path": "."
+        },
+        {
             // HTML campaign design
             "name": "html-email",
             "path": "..\\Public"
@@ -9,11 +14,6 @@
             // Private HTML campaign design
             "name": "html-email-private",
             "path": "..\\Private"
-        },
-        {
-            // HTML campaign automation process
-            "name": "html-email-auto",
-            "path": "."
         }
     ],
     "settings": {
@@ -49,7 +49,9 @@
         "files.autoSaveDelay": 500,
         "workbench.colorTheme": "Atom Pro Theme",
         "workbench.iconTheme": "moxer-icons",
-        "terminal.integrated.fontFamily": "CaskaydiaCove NF"
+        "terminal.integrated.fontFamily": "CaskaydiaCove NF",
+        "powershell.powerShellDefaultVersion": "Powershell Core (x64)",
+        "powershell.cwd": "${workspaceRoot}\\..\\private"
     },
     "extensions": {
         "recommendations": [
