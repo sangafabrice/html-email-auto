@@ -1,6 +1,6 @@
 $NEWLINE = [System.Environment]::NewLine
 $REMOVE_EMPTY_LINE = {
-    param ([string] $Text )
+    param ([string] $Text)
     $Text.Split("$NEWLINE", [StringSplitOptions]::RemoveEmptyEntries) -join "$NEWLINE"
 }
 $REPO_LIST = [ordered] @{
@@ -16,15 +16,15 @@ class Repository {
     }
 
     static $BlankEmail = $(
-            $BlankEmailPathInfo = (Resolve-Path '..\public\blank-email.html');
-            $AddMemberParams = @{
-                InputObject = $BlankEmailPathInfo;
-                MemberType = 'NoteProperty';
-                Name = 'Content';
-                Value = "$(Get-Content -Path $BlankEmailPathInfo.Path -Raw -Force)"
-            }
-            Add-Member @AddMemberParams -PassThru
-        )
+        $BlankEmailPathInfo = (Resolve-Path '..\public\blank-email.html');
+        $AddMemberParams = @{
+            InputObject = $BlankEmailPathInfo;
+            MemberType = 'NoteProperty';
+            Name = 'Content';
+            Value = "$(Get-Content -Path $BlankEmailPathInfo.Path -Raw -Force)"
+        }
+        Add-Member @AddMemberParams -PassThru
+    )
 
     static [scriptblock] WatchEmail() {
         return {
